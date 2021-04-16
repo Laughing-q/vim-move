@@ -7,9 +7,9 @@ standards. vim-move is a Vim plugin that moves lines and selections in a more
 visual manner. Out of the box, the following keys are mapped in visual and
 normal mode:
 
-    <A-k>   Move current line/selection up
-    <A-j>   Move current line/selection down
-    <A-h>   Move current character/selection left
+    <A-i>   Move current line/selection up
+    <A-k>   Move current line/selection down
+    <A-j>   Move current character/selection left
     <A-l>   Move current character/selection right
 
 The mappings can be prefixed with a count, e.g. `5<A-k>` will move the selection
@@ -44,8 +44,8 @@ let g:move_key_modifier = 'C'
 
 which will create the following key bindings:
 
-    <C-k>   Move current line/selections up
-    <C-j>   Move current line/selections down
+    <C-i>   Move current line/selections up
+    <C-k>   Move current line/selections down
 
 And so on...
 
